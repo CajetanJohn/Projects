@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d90ac0d2.css",
+    "main.js": "/static/js/main.203303e3.js",
+    "static/media/asian_teacher_conducts_an_online_lesson.mp4": "/static/media/asian_teacher_conducts_an_online_lesson.0792608c357748eaba3b.mp4",
+    "static/media/geometry.jpg": "/static/media/geometry.bf8994bb01ea3b2d67b8.jpg",
+    "static/media/people.jpg": "/static/media/people.c5593223f6027d2db0d6.jpg",
+    "static/media/graduation.jpg": "/static/media/graduation.bf1f99736c9535bc53b2.jpg",
+    "static/media/student.jpg": "/static/media/student.fcdd2a416061f85f70cd.jpg",
+    "static/media/User11.jpg": "/static/media/User11.55f4cff9274ec0d41bb6.jpg",
+    "static/media/User12.jpg": "/static/media/User12.c6e4b02cf707307a7d2a.jpg",
+    "static/media/User10.jpg": "/static/media/User10.b3ecaccd70f044b2ace5.jpg",
+    "static/media/User8.jpg": "/static/media/User8.e1504dc551ae12dc4c47.jpg",
+    "static/media/step.jpeg": "/static/media/step.a33b59b7869a65fd9aec.jpeg",
+    "static/media/User9.jpg": "/static/media/User9.f63a41be9d074a38bd6d.jpg",
+    "index.html": "/index.html",
+    "static/media/User6.webp": "/static/media/User6.d6a3d3c9e78b72f30d19.webp",
+    "static/media/User7.webp": "/static/media/User7.aafcb6884088252435fc.webp",
+    "static/media/User3.webp": "/static/media/User3.0ed8381e15fef67a082e.webp",
+    "static/media/User4.webp": "/static/media/User4.b25c6c3b1454284b476d.webp",
+    "static/media/User2.webp": "/static/media/User2.cf922357729c5add0fe1.webp",
+    "static/media/User1.webp": "/static/media/User1.13a753fb1687334cef09.webp",
+    "static/media/User5.webp": "/static/media/User5.e2922f17f7d4feeb1c05.webp",
+    "static/media/star-half.svg": "/static/media/star-half.10b1e550e2ad7dbfbe78aa46872432d1.svg",
+    "static/media/star-fill.svg": "/static/media/star-fill.5af7042a31bf8e03b6ab76012660b54c.svg",
+    "static/media/list.svg": "/static/media/list.a48f507d8d6fa67ddfc642ef796aa64a.svg",
+    "static/media/x.svg": "/static/media/x.585941d3ffdec09f068d6110abd2db44.svg",
+    "main.d90ac0d2.css.map": "/static/css/main.d90ac0d2.css.map",
+    "main.203303e3.js.map": "/static/js/main.203303e3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d90ac0d2.css",
+    "static/js/main.203303e3.js"
+  ]
+}

@@ -1,0 +1,26 @@
+.paragraph {
+  position: relative;
+  width: fit-content;
+  font-size: inherit;
+}
+
+.paragraph::after {
+  content: '|';
+  position: absolute;
+  right: -0.2em;
+  animation: blinkCursor 0.7s infinite;
+  color: inherit;
+  width:5px;
+  height: 100%;
+  background-color: inherit;
+  transform: translateX(100%);
+}
+
+@keyframes blinkCursor {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

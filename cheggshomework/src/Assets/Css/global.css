@@ -1,0 +1,143 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+  scroll-behavior: smooth;
+}
+:root {
+  --graphicShadow:10px 10px 0px rgba(0, 0, 0, 0.7);
+  --backgroundColor:rgb(172,172,172);
+  --textColor:black;
+  --backgroundColor:#EA7207;
+  --baseColor:#EA7207;
+  --headingColor: ;
+  --inputColor: #4A8686;
+  --invalidColor: rgb(200, 10, 20);
+  --validColor:green;
+  --borderColor:#EA7207;
+  --otherBackgroundColor: #EA7207;
+  --border-radius: 20px;
+  --activeColor: #EA7207;
+  --hoverColor:#EA7207;
+  --logoColor: #45a194;
+  --borderRadius:10px;
+  --boxShadow:0px 3px 3px rgba(0, 0, 0, 0.4);
+  --supplementaryColor:rgb(20,84,76);
+  --cancelColor:red;
+  --activeLink: #EA7207;
+  --selectedRadio: #45a194;
+  --otherColor:rgb(45,30,49);
+  --otherColor2:rgb(86,141,85);
+  
+  
+  --headingFont:25px;
+  --textFont:19px;
+  --inputFont:16px;
+  --labelFont:16px;
+  --spanFont:15px;
+  --buttonFont:18px;
+  --placeholder:;
+  --logoFont:40px;
+  ----tagdownFontSize:14px;
+  
+  
+  --h-xsm:;
+  --h-sg:;
+  --h-md:;
+  --h-lg:;
+  --h-xlg:;
+
+  --pd-xsm:10px;
+  --pd-sm:15px;
+  --pd-md:20px;
+  --pd-lg:25px;
+  --pd-xlg:30px;
+  --pd-input:7px;
+
+  --mg-xsm:10px;
+  --mg-sm:15px;
+  --mg-md:20px;
+  --mg-lg:25px;
+  --mg-xlg:30px;
+
+  --link-underline:;
+  --link-hover:;
+  --link-active:;
+
+
+  --link-hover-color:rgba(25,170,11,1);
+  --link-active-color:rgba(25,170,11,1);
+  --link-active-color-2:rgb(100,178,11);
+
+  --bg-color:white;
+  --bg-color-1:rgba(25,170,11,.1);
+  --bg-color-2:rgba(21,85,71,.7);
+
+  --fl-gap-sm:10px;
+  --fl-gap-md:20px;
+
+  --button-background-color:rgb(42,81,71);
+  --button-background-color-2:rgb(43,127,55);
+  --button-background-color-3:rgba(193,75,16);
+  --footer-bg-color:rgb(20,36,12,1);
+  --logoDecorationColor:rgba(14,135,0);
+  --inputColor:rgba(14,135,0);
+  --inputInvalid:rgb(204, 32,56);
+  --tag-color:rgb(42,81,71);
+  --textColor-2:rgb(14,135,0);
+
+  --inputHeight:50px;
+}
+
+.app {
+  overflow-x: hidden;
+  width: inherit;
+  position: relative;
+  height: fit-content;
+  scroll-behavior: smooth;  
+  min-height: 100dvh;
+}
+
+h1 {font-size: 50px;}
+h2 {font-size: 45px;}
+h3 {font-size: 35px;}
+h4 {font-size: 30px;}
+h5 {font-size: 30px;}
+h6 {font-size: 25px;}
+
+
+a {text-decoration: none;}
+ul {list-style: none;}
+
+button {
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button:hover {
+  box-shadow: var(--boxShadow);
+}
+button:focus {
+  animation: clicked .5s linear forwards;
+}
+@keyframes clicked {
+  50% {
+    box-shadow: var(--boxShadow);
+  }
+  100%{
+    box-shadow: none;
+  }
+}
+.fadded-out {
+  opacity: 0.8;
+  background-color: black;
+}
+.hidden {
+  display: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+.hide-spinner::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  display: none;
+}
